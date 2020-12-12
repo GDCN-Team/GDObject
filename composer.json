@@ -1,5 +1,5 @@
 {
-    "name": "gdcn/gd-object",
+    "name": "gdcn/object",
     "description": "Geometry Dash Chinese Geometry Dash Object",
     "version": "1.0.0",
     "type": "library",
