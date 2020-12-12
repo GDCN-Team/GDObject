@@ -18,7 +18,7 @@ class GDObject
      * @param bool $ksort
      * @return string
      */
-    public function merge(array $object, string $glue, bool $useKey = true, bool $ksort = true): string
+    public static function merge(array $object, string $glue, bool $useKey = true, bool $ksort = true): string
     {
         if ($ksort) {
             ksort($object);
@@ -37,7 +37,7 @@ class GDObject
      * @param bool $useKey
      * @return array
      */
-    public function split(string $object, string $delimiter, bool $useKey = true): array
+    public static function split(string $object, string $delimiter, bool $useKey = true): array
     {
         $objects = explode($delimiter, $object);
 
